@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#C65378</color>
+    <color name="colorPrimaryDark">#B92152</color>
+    <color name="colorAccent">#FDBD1F</color>
+    <color name="colorAccentDark">#E4A200</color>
+
+    <color name="colorWhite">#FFF</color>
+    <color name="colorBaslik">#640021</color>
+    <color name="colorMetin">#3d0014</color>
+    <color name="colorOzellikBaslik">#ff9cbd</color>
+    <color name="colorOzellik">#ffccdd</color>
+
+</resources>

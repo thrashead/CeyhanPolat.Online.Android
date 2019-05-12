@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Ceyhan Polat ve Şiirleri</string>
+    <string name="navigation_drawer_open">Menü Aç</string>
+    <string name="navigation_drawer_close">Menü Kapat</string>
+    <string name="nav_header_title">Ceyhan Polat ve Şiirleri</string>
+    <string name="nav_header_subtitle">by Sina SALIK</string>
+    <string name="nav_header_desc">Menü</string>
+    <string name="action_kapat">Kapat</string>
+    <string name="action_rasgele">Yenile</string>
+
+    <string name="web_root">http://ceyhanpolat.sinasalik.net/</string>
+    <string name="wcf_root">http://ceyhanpolat.sinasalik.net/servis/cpservice.svc/</string>
+    <!--<string name="web_root">http://10.0.2.2/ceyhanpolat/</string>-->
+    <!--<string name="wcf_root">http://10.0.2.2/ceyhanpolat/servis/cpservice.svc/</string>-->
+
+    <string name="web_developer">http://www.sinasalik.net/</string>
+
+    <string name="baslik_galeri">Galeri</string>
+    <string name="baslik_rasgele">Rasgele Şiir</string>
+    <string name="baslik_siir">Şiir</string>
+    <string name="baslik_siirler">Şiirler</string>
+    <string name="baslik_biyografi">Biyografi</string>
+
+    <string name="etPoetrysearchSiirismi">Şiir İsmi</string>
+    <string name="etPoetrysearchIlktarih">İlk Tarih (Örn: 1924)</string>
+    <string name="etPoetrysearchSontarih">Son Tarih (Örn: 1982)</string>
+    <string name="btPoetrysearchAra">Ara</string>
+
+    <string name="tvMainHakkinda">Bu android uygulaması Ceyhan Polat anısına torunu Sina SALIK tarafından yapılmıştır.</string>
+</resources>

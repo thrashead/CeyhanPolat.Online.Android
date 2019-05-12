@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".FrSiirler"
+    tools:showIn="@layout/layout">
+
+    <LinearLayout
+        android:id="@+id/llPoetrysearchLinearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorAccent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rlPoetrysearhFramelayout"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/colorPrimary" >
+
+            <RelativeLayout
+                android:id="@+id/rlPoetrysearchIccerceve"
+                android:layout_width="320dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@color/colorPrimary" >
+
+                <EditText
+                    android:id="@+id/etPoetrysearchSiirismi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:height="40dp"
+                    android:ems="10"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:hint="@string/etPoetrysearchSiirismi"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorWhite" ></EditText>
+
+                <EditText
+                    android:id="@+id/etPoetrysearchIlktarih"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:height="40dp"
+                    android:layout_below="@+id/etPoetrysearchSiirismi"
+                    android:ems="10"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:hint="@string/etPoetrysearchIlktarih"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorWhite" >
+
+
+                </EditText>
+
+                <EditText
+                    android:id="@+id/etPoetrysearchSontarih"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:height="40dp"
+                    android:layout_below="@+id/etPoetrysearchIlktarih"
+                    android:ems="10"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:hint="@string/etPoetrysearchSontarih"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:textColor="@color/colorAccent"
+                    android:textColorHint="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/btPoetrysearchAra"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentLeft="true"
+                    android:height="40dp"
+                    android:layout_below="@+id/etPoetrysearchSontarih"
+                    android:background="@color/colorPrimaryDark"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:text="@string/btPoetrysearchAra"
+                    android:textColorHint="@color/colorWhite" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/lvPoetrysearchListe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </ListView>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

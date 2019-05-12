@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_anasayfa"
+            android:icon="@mipmap/ic_launcher"
+            android:title="Ana Sayfa" />
+        <item
+            android:id="@+id/nav_biyografi"
+            android:icon="@mipmap/cpbio"
+            android:title="Biyografi" />
+        <item
+            android:id="@+id/nav_galeri"
+            android:icon="@mipmap/cpgallery"
+            android:title="Galeri" />
+        <item
+            android:id="@+id/nav_siirler"
+            android:icon="@mipmap/cppoet"
+            android:title="Şiirler" />
+        <item
+            android:id="@+id/nav_rasgele"
+            android:icon="@mipmap/refresh"
+            android:title="Rasgele Şiir" />
+    </group>
+
+    <item android:title="Diğer">
+        <menu>
+            <item
+                android:id="@+id/nav_web"
+                android:icon="@mipmap/cpweb"
+                android:title="Web Sitesine Git" />
+
+            <item
+                android:id="@+id/nav_kapat"
+                android:icon="@mipmap/close"
+                android:title="Kapat" />
+        </menu>
+    </item>
+
+    <item android:title="Hazırlayan">
+        <menu>
+            <item
+                android:id="@+id/nav_developer"
+                android:icon="@mipmap/cpsinalogo"
+                android:title="Sina SALIK" />
+        </menu>
+    </item>
+
+    <item android:title="Diğer" android:visible="false">
+        <menu>
+            <item
+                android:id="@+id/nav_mesaj"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Mesaj Gönder" />
+            <item
+                android:id="@+id/nav_guncelle"
+                android:icon="@mipmap/ic_launcher"
+                android:title="Güncellemeleri Denetle" />
+        </menu>
+    </item>
+
+</menu>

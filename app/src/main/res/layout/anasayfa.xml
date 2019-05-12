@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_marginTop="-12dp"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AnaSayfa"
+    tools:showIn="@layout/layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/cpmetin" />
+
+        <ImageView
+            android:id="@+id/imgAnaSayfa"
+            android:layout_width="210dp"
+            android:layout_height="210dp"
+            android:background="@mipmap/sliderframe"
+            android:src="@mipmap/cpresim"
+            android:padding="22dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="Ceyhan Polat ve Şiirleri"
+            android:textColor="@color/colorPrimary"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Android Uygulaması"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold|italic"
+            android:text="                                                         Hazırlayan : Sina SALIK"
+            android:textColor="@color/colorWhite"
+            android:textSize="9sp" />
+    </LinearLayout>
+</RelativeLayout>
